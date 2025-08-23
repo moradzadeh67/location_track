@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => PointProvider(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Point App',
         theme: ThemeData(
           fontFamily: 'IranSans',
